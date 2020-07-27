@@ -1,0 +1,8 @@
+--index-url=https://artifactory.k8s.devops.s-9.us/artifactory/api/pypi/pypi/simple
+
+black
+flake8
+flake8-docstrings
+flake8-import-order
+ipdb
+nb_black
