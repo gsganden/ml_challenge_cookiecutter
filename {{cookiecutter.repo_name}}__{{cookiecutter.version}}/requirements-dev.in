@@ -8,4 +8,3 @@ ipdb
 jupyterlab
 nb_black
 pip_tools
-pre_commit
