@@ -1,1 +1,1 @@
-docker build . -t {{cookiecutter.repo_name}}__{{cookiecutter.version}}
+docker build . -t {{cookiecutter.repo_name}}:{{cookiecutter.version}}
