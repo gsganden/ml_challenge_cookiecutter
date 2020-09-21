@@ -5,4 +5,7 @@ flake8
 flake8-docstrings
 flake8-import-order
 ipdb
+jupyterlab
 nb_black
+pip_tools
+pre_commit
