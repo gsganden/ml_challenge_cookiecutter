@@ -1,0 +1,13 @@
+DockerFile
+JenkinsPipeline
+README.md
+**/*.parquet
+**/*.csv
+**/*.npy
+**/*.pkl
+**/.ipynb_checkpoints
+**/artifacts
+**/mlruns
+**/models
+**/scratch
+**/tensorboard_logs
