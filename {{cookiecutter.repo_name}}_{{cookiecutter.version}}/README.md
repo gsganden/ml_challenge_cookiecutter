@@ -7,17 +7,17 @@ Build docker image:
 Bash into docker container:
 
 ```bash
-./docker_bash.sh
+./bash_docker.sh
 ```
 
 Start JupyterLab on port 8888:
 
 ```bash
-./docker_jupyter.sh
+./jupyter_docker.sh
 ```
 
 Start Tensorboard on port 6006:
 
 ```bash
-./docker_tensorboard.sh
+./tensorboard_docker.sh
 ```
