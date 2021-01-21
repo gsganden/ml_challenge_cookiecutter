@@ -4,4 +4,4 @@ nvidia-docker run \
   -v "${PWD}:/{{cookiecutter.repo_name}}__{{cookiecutter.version}}" \
   -p 8888:8888 \
   {{cookiecutter.repo_name}}:{{cookiecutter.version}} \
-  jupyter lab --allow-root --ip 0.0.0.0 --no-browser --NotebookApp.token=''
+  jupyter lab --allow-root --ip 0.0.0.0 --no-browser
