@@ -1,7 +1,7 @@
-FROM nvcr.io/nvidia/pytorch:19.10-py3
+FROM dtr.s-9.us/pytorch/pytorch:1.8.0-cuda11.1-cudnn8-devel
 LABEL maintainer="data-science@shoprunner.com"
 
-WORKDIR /{{cookiecutter.repo_name}}__{{cookiecutter.version}}/
+WORKDIR /{{cookiecutter.base_name}}_{{cookiecutter.version}}/
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY requirements-dev.txt .
