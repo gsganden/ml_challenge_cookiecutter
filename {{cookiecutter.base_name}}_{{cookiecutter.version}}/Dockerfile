@@ -1,10 +1,6 @@
-FROM dtr.s-9.us/pytorch/pytorch:1.8.0-cuda11.1-cudnn8-devel
-LABEL maintainer="data-science@shoprunner.com"
-
-RUN conda remove PyYAML
+FROM rapidsai/rapidsai-dev:21.12-cuda11.5-devel-ubuntu18.04-py3.8
+LABEL maintainer="gsganden@gmail.com"
 
 WORKDIR /{{cookiecutter.base_name}}_{{cookiecutter.version}}/
 COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY requirements-dev.txt .
-RUN pip install -r requirements-dev.txt
+RUN source activate rapids && pip install -r requirements.txt

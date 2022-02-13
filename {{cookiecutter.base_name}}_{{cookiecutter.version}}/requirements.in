@@ -1,2 +1,9 @@
-awscli
+fastai
+flake8
+matplotlib
+model_inspector
+nb_black
+nbqa
+pandas
+sklearn
 tqdm

@@ -10,14 +10,14 @@ Bash into docker container:
 ./bash_docker.sh
 ```
 
-Start JupyterLab on port 8888:
+Start JupyterLab on port 8888 inside docker container:
 
 ```bash
 ./jupyter_docker.sh
 ```
 
-Start Tensorboard on port 6006:
+Recompile requirements inside container:
 
 ```bash
-./tensorboard_docker.sh
+./compile_reqs.sh
 ```
