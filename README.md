@@ -1,3 +1,3 @@
-# ml-gpu-cookiecutter
+# ml_challenge_cookiecutter
 
-[Cookiecutter template](https://cookiecutter.readthedocs.io/en/1.7.2/) for a GPU ML model development workspace
+[Cookiecutter template](https://cookiecutter.readthedocs.io/en/1.7.2/) for ML challenges
